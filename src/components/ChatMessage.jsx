@@ -50,7 +50,7 @@ const ChatMessages = ({ name }) => {
 
 
   return (
-    <div className='d-flex flex-column justify-content-between py-3 px-2 ' style={{ backgroundColor: "#e9ecef",height:"25rem",width:'600px',marginLeft:'100px'}}>
+    <div className='d-flex flex-column justify-content-between py-3 px-2 ' style={{ backgroundColor: "#e9ecef",height:"28rem",width:'600px',marginLeft:'100px'}}>
         <ScrollableFeed>
 
       <ul style={{}}>
