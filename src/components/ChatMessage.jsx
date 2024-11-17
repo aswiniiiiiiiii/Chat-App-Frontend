@@ -50,7 +50,7 @@ const ChatMessages = ({ name }) => {
 
 
   return (
-    <div className='d-flex flex-column justify-content-between py-3 px-2 ' style={{ backgroundColor: "#e9ecef",height:"25rem",width:'500px',marginLeft:'100px'}}>
+    <div className='d-flex flex-column justify-content-between py-3 px-2 ' style={{ backgroundColor: "#e9ecef",height:"25rem",width:'600px',marginLeft:'100px'}}>
         <ScrollableFeed>
 
       <ul style={{}}>
@@ -61,13 +61,13 @@ const ChatMessages = ({ name }) => {
                 {
                   socket.id == msg.userId ?
                     <>
-                      <h6 style={{ float: "right"}}>  You : <h5 className='rounded p-1' style={{backgroundColor:'white',display:'inline',fontSize:'15px',fontSize:'15px' }}>{msg.text}</h5></h6>
+                      <h6 style={{ float: "right"}} className='fs-5'>  You : <h5 className='rounded p-1' style={{backgroundColor:'white',display:'inline',fontSize:'15px',fontSize:'20px' }}>{msg.text}</h5></h6>
                       <br />
                     </>
 
                     :
                     <>
-                      <h6 > {msg.user} : <h5 className='rounded p-1' style={{backgroundColor:'white',display:'inline',fontSize:'15px'}}>{msg.text}</h5></h6>
+                      <h6 className='fs-5'> {msg.user} : <h5 className='rounded p-1' style={{backgroundColor:'white',display:'inline',fontSize:'20px'}}>{msg.text}</h5></h6>
 
                     </>
                 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ChatHead = ({name}) => {
   return (
-    <div style={{minHeight:'30px',width:'500px',marginLeft:'100px',backgroundColor:'skyblue'}} className='mt-5  p-2 d-flex justify-content-between '>
+    <div style={{minHeight:'30px',width:'600px',marginLeft:'100px',backgroundColor:'skyblue'}} className='mt-5  p-2 d-flex justify-content-between '>
         <div className='d-flex'>
             <h2 className="text-dark ms-3">{name}</h2>
         </div>
